@@ -1,7 +1,7 @@
 <script type="text/javascript">
         (function changeImage() {
-            var rotator = document.getElementById('rotator');  
-            var imageDir = 'D:\Desktop\webDev';
+            var rotator = document.getElementById('rotator');
+            var imageDir = '/kat';
             var delayInSeconds = 5;
 
             var images = ['kat1.jpg', 'kat2.jpg', 'kat3.jpg', 'kat4.jpg', 'kat5.jpg'];
