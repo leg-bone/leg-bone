@@ -11,7 +11,7 @@ body {
     font-family: 'monospace-bold', sans-serif;
     color: white;
     display: flex;
-    justify-content: center;
+    align-content: center;
     flex-direction: column;
     align-items: center;
     height: 90vh;
