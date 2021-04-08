@@ -13,7 +13,10 @@
                 if (num == len) {
                     num = 0;
                 }
+
             };
+
+            (function randomNum)
 
         })();
         </script>
