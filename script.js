@@ -1,5 +1,5 @@
 <script type="text/javascript">
-        (function changeImage() {
+        function changeImage() {
             var rotator = document.getElementById('rotator');
             var imageDir = '/kat';
             var delayInSeconds = 5;
@@ -16,6 +16,6 @@
 
             };
 
-        })();
+        }
 
         </script>
