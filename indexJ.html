@@ -19,10 +19,19 @@
               var kat = ["/kat/kat1.jpg","/kat/kat2.jpg","/kat/kat3.jpg","/kat/kat4.jpg","/kat/kat5.jpg"]
               var x = 1
               var n = 1
+              function startUp(){
+                document.getElementById("question").innerHTML = ("Question " + n + ": is this you?");
+              }
+              
+              startUp();
+
               function changeImage(){
                 document.getElementById("kat").src = kat[x];
-                document.getElementById("question").innerHTML = ("Question " + n + ":");
+
                 n++;
+
+                document.getElementById("question").innerHTML = ("Question " + n + ": is this you?");
+
                 if(x < 4){
                   x++;
                 } else {
