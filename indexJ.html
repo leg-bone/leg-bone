@@ -22,7 +22,12 @@
 
               function changeImage(){
                 document.getElementById("kat").src = kat[x];
-                x++;
+                if(x < 4){
+                  x++;
+                } else {
+                  x = 0;
+                }
+
               }
               </script>
               <h1 id="head"></h1>
