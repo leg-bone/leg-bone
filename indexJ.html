@@ -21,7 +21,7 @@
               var n = 1
               function changeImage(){
                 document.getElementById("kat").src = kat[x];
-                document.write("Question " + n + ":");
+                document.write("<p>Question " + n + ": is this you? </p>");
                 n++;
                 if(x < 4){
                   x++;
@@ -31,8 +31,7 @@
 
               }
               </script>
-              
-              <p> is this you? </p>
+
               <button id="b1" onclick="changeImage()">NO</button>
 
               <h1 id="head"></h1>
