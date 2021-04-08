@@ -1,4 +1,4 @@
-
+document.getElementById("b1").onclick = changeImage;
         function changeImage() {
             var rotator = document.getElementById('rotator');
             var imageDir = '/kat';
@@ -8,7 +8,7 @@
 
             var num = 0;
             var changeImage = function() {
-                var len = images.length;
+                var len = imagwees.length;
                 rotator.src = imageDir + images[num++];
                 if (num == len) {
                     num = 0;
