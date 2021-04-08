@@ -1,4 +1,4 @@
-<script type="text/javascript">
+
         function changeImage() {
             var rotator = document.getElementById('rotator');
             var imageDir = '/kat';
@@ -17,5 +17,3 @@
             };
 
         }
-
-        </script>
