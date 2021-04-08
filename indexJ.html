@@ -18,8 +18,11 @@
               <button id="b1" onclick="changeImage()">NO</button>
               <script type=text/javascript>
               var kat = ["/kat/kat1.jpg","/kat/kat2.jpg","/kat/kat3.jpg","/kat/kat4.jpg","/kat/kat5.jpg"]
+              var x = 1
+
               function changeImage(){
-                document.getElementById("kat").src = kat[1];
+                document.getElementById("kat").src = kat[x];
+                x++;
               }
               </script>
               <h1 id="head"></h1>
