@@ -6,7 +6,7 @@ iframe {
     border: 10px solid;
     border-radius: 32px;
   }
-  
+
 .television {
     display:flex;
     justify-content: space-around;
@@ -16,7 +16,7 @@ iframe {
 .television_center {
     position: relative;
     z-index: 2;
-    width: 1300px; 
+    width: 1300px;
     height: 800px;
     background-color: #a4a9ad;
     border: solid 3px #424546;
@@ -71,6 +71,7 @@ iframe {
     border-radius: 50%;
 }
 
+
 .television_channel a:active {
     box-shadow: inset rgba(255,255,255,0.6) 0 2px 2px,
                 inset rgba(0,0,0,0.15) 0 -2px 5px, /* inner shadow */
@@ -78,6 +79,47 @@ iframe {
                         rgba(100,100,100,0.6) 0 2px 1px; /* color border */
 }
 
+.power_wrapper {
+    margin:20px;
+    width: 170px;
+    height: 40px;
+    background-color:#424546;
+    border-radius: 48px;
+    float: right;
+}
+.television_power {
+    list-style-type: none;
+    background-color: #889297;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    position: relative;
+
+}
+.television_powers {
+    display:flex;
+    padding: 0px;
+    margin: 8px;
+
+}
 
 
-  
+.television_power a {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #4b595f;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+
+
+.television_power a:active {
+    box-shadow: inset rgba(255,255,255,0.6) 0 2px 2px,
+                inset rgba(0,0,0,0.15) 0 -2px 5px, /* inner shadow */
+                        rgba(100,100,100,0.6) 0 2px 1px,
+                        rgba(100,100,100,0.6) 0 2px 1px; /* color border */
+}
