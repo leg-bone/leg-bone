@@ -8,40 +8,17 @@
   <link rel="stylesheet" href="styleV.css" type="text/css">
 </head>
 <body>
+  <div class="back">
+    <video autoplay loop>
+      <source src="TV/video.mp4" type = "video.mp4">
+        
+  </div>
   <div class="television">
 
       <div class="television_center">
 
          <div class="television_screen">
             <iframe src="" frameborder="0" allowfullscreen></iframe>
-                <img src="/TV/vid1.mp4" id="vid" width="400" height="225" alt = "">
-                <p id="question"></p>
-                <script type=text/javascript>
-                var vid = ["/TV/video1.mp4","/TV/video2.mp4","/TV/video3.mp4","/TV/video4.mp4","/TV/video5.mp4"]
-                var x = 1
-
-                startUp();
-
-                function changeChannel(){
-                  document.getElementById("vid").src = vid[x];
-
-                  n++;
-
-
-                  if(x < 4){
-                    x++;
-                  } else {
-                    x = 0;
-                  }
-
-                }
-                </script>
-
-                <button id="b1" onclick="changeImage()">+</button>
-
-                <h1 id="head"></h1>
-
-         </div><!-- television__screen -->
 
          <div class="channel_wrapper">
               <ul class="television_channels">
